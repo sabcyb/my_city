@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('images/frankfurt.webp');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0 0;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60px;
+}
+
+.places {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.place {
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Libre Baskerville", serif;
