@@ -1,6 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #9c7878, #ebd0d0);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-family: "Libre Baskerville", serif;
 }
 
 .header {
@@ -23,6 +32,14 @@ body{
     display: flex;
     justify-content: space-around;
     
+}
+#guide-section{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    text-align: center;
 }
 #intro {
     margin: 20px;
@@ -49,8 +66,15 @@ body{
     border-radius: 800px;
 }
 
-.deck-title{
+.deck-title, .guide-title{
     text-align: center;
     font-size: 24px;
     margin-bottom: 10px 20px;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
